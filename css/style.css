@@ -1,4 +1,8 @@
-body {
-  background-color: aquamarine;
+.navbar .navbar-brand {
+  font-size: 1.8em;
 }
-/*# sourceMappingURL=sass.css.map */
+
+.navbar .nav-link {
+  font-size: 1.2em;
+}
+/*# sourceMappingURL=style.css.map */
