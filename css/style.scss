@@ -46,9 +46,9 @@
     }
     .gambarJumbotron {
       width: 400px;
-      border-radius: 50%;
+      border-radius: 10% 30% 10% 30%;
       overflow: hidden;
-      border: 5px solid #728da6;
+      border: 5px solid #a5a6b5;
       img {
         transform: scale(1.8);
         object-position: 7px;
