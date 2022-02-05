@@ -6,15 +6,51 @@
   font-size: 1.2em;
 }
 
+.warna {
+  color: #f3f4fa;
+  color: #a5a6b5;
+  color: #728da6;
+  color: #454759;
+  color: #728da6;
+  color: #4f58a3;
+}
+
+.jumbotron {
+  background-color: #f3f4fa;
+}
+
+.jumbotron .perkenalan p:nth-child(1) {
+  margin: 0;
+  padding-left: 3px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #a5a6b5;
+}
+
+.jumbotron .perkenalan p:nth-child(3) {
+  margin: 0;
+  padding-left: 3px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #a5a6b5;
+}
+
+.jumbotron .perkenalan h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #0b0d12;
+}
+
 .jumbotron .container {
-  padding-top: 100px;
+  padding: 100px 0;
 }
 
 .jumbotron .container .gambarJumbotron {
   width: 400px;
   border-radius: 50%;
-  border: 5px solid #127777;
   overflow: hidden;
+  border: 5px solid #728da6;
 }
 
 .jumbotron .container .gambarJumbotron img {
@@ -22,5 +58,26 @@
           transform: scale(1.8);
   -o-object-position: 7px;
      object-position: 7px;
+}
+
+.jumbotron a {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #f3f4fa;
+}
+
+.jumbotron .btn {
+  margin-top: 30px;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  background-color: #4f58a3;
+}
+
+.jumbotron .btn:hover {
+  opacity: 0.8;
+  color: #f3f4fa;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=style.css.map */
