@@ -5,4 +5,22 @@
 .navbar .nav-link {
   font-size: 1.2em;
 }
+
+.jumbotron .container {
+  padding-top: 100px;
+}
+
+.jumbotron .container .gambarJumbotron {
+  width: 400px;
+  border-radius: 50%;
+  border: 5px solid #127777;
+  overflow: hidden;
+}
+
+.jumbotron .container .gambarJumbotron img {
+  -webkit-transform: scale(1.8);
+          transform: scale(1.8);
+  -o-object-position: 7px;
+     object-position: 7px;
+}
 /*# sourceMappingURL=style.css.map */
