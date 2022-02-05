@@ -24,10 +24,12 @@ body {
 
 // Jumbotron
 .jumbotron {
-  background-color: #f3f4fa;
+  // background-color: #f3f4fa;
+  position: relative;
+  overflow: hidden;
   .container {
-    padding: 100px 0;
     .perkenalan {
+      padding: 100px 0;
       p:nth-child(1) {
         margin: 0;
         padding-left: 3px;
@@ -49,17 +51,26 @@ body {
         color: #a5a6b5;
       }
     }
-    .gambarJumbotron {
-      width: 400px;
-      border-radius: 10% 30% 10% 30%;
-      overflow: hidden;
-      border: 5px solid #a5a6b5;
-      img {
-        transform: scale(1.8);
-        object-position: 7px;
+
+    .gambar {
+      position: relative;
+      padding: 50px 0;
+
+      .gambarJumbotron {
+        width: 400px;
+        border-radius: 10% 30% 10% 30%;
+        overflow: hidden;
+        border: 5px solid #a5a6b5;
+        position: relative;
+        z-index: 9999;
+        img {
+          transform: scale(1.8);
+          object-position: 7px;
+        }
       }
     }
   }
+
   a {
     margin-top: 15px;
     font-size: 1.2rem;
@@ -77,5 +88,24 @@ body {
     opacity: 0.8;
     color: #f3f4fa;
     transform: scale(1.1);
+  }
+  .hGaris {
+    width: 40px;
+    height: 900px;
+    background-color: #9f7766;
+    position: absolute;
+    transform: rotate(50deg);
+  }
+  .Garis1 {
+    right: 15%;
+    top: -35%;
+  }
+  .Garis2 {
+    right: 10%;
+    top: -30%;
+  }
+  .Garis3 {
+    right: 5%;
+    top: -25%;
   }
 }

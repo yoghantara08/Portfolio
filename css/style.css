@@ -27,10 +27,11 @@ body {
 }
 
 .jumbotron {
-  background-color: #f3f4fa;
+  position: relative;
+  overflow: hidden;
 }
 
-.jumbotron .container {
+.jumbotron .container .perkenalan {
   padding: 100px 0;
 }
 
@@ -57,14 +58,21 @@ body {
   color: #a5a6b5;
 }
 
-.jumbotron .container .gambarJumbotron {
+.jumbotron .container .gambar {
+  position: relative;
+  padding: 50px 0;
+}
+
+.jumbotron .container .gambar .gambarJumbotron {
   width: 400px;
   border-radius: 10% 30% 10% 30%;
   overflow: hidden;
   border: 5px solid #a5a6b5;
+  position: relative;
+  z-index: 9999;
 }
 
-.jumbotron .container .gambarJumbotron img {
+.jumbotron .container .gambar .gambarJumbotron img {
   -webkit-transform: scale(1.8);
           transform: scale(1.8);
   -o-object-position: 7px;
@@ -91,5 +99,29 @@ body {
   color: #f3f4fa;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.jumbotron .hGaris {
+  width: 40px;
+  height: 900px;
+  background-color: #9f7766;
+  position: absolute;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+}
+
+.jumbotron .Garis1 {
+  right: 15%;
+  top: -35%;
+}
+
+.jumbotron .Garis2 {
+  right: 10%;
+  top: -30%;
+}
+
+.jumbotron .Garis3 {
+  right: 5%;
+  top: -25%;
 }
 /*# sourceMappingURL=style.css.map */
