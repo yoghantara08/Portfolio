@@ -36,8 +36,8 @@ nav ul li a {
   font-weight: 500;
 }
 nav ul li a:hover {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.3);
+  color: #f3f4fa;
+  opacity: 0.8;
 }
 
 /* Hamburger Menu */
