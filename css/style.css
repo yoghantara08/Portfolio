@@ -13,6 +13,8 @@ nav {
 
 .logo h3 {
   margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 nav ul {
@@ -22,9 +24,12 @@ nav ul {
   justify-content: space-between;
   margin-bottom: 0;
 }
+
 nav ul li a {
   text-decoration: none;
   color: black;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 nav ul li a:hover {
   text-decoration: none;
@@ -285,6 +290,11 @@ nav ul li a:hover {
     transition: all 1s;
     opacity: 0;
     margin-top: 60px;
+  }
+
+  nav ul li a {
+    font-size: 1.3rem;
+    font-weight: bold;
   }
 
   .hamburger-menu {
