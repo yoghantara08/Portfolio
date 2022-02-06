@@ -89,11 +89,13 @@ nav ul li a:hover {
   color: #4f58a3;
 }
 
+/* Jumbotron */
 .jumbotron {
   position: relative;
   overflow: hidden;
 }
 
+/* Perkenalan */
 .perkenalan {
   position: relative;
   z-index: 999;
@@ -123,6 +125,7 @@ nav ul li a:hover {
   color: #a5a6b5;
 }
 
+/* Gambar */
 .gambar {
   position: relative;
   padding: 50px 0;
@@ -152,9 +155,9 @@ nav ul li a:hover {
 }
 
 .jumbotron .btn {
-  margin-top: 30px;
-  padding: 0.6rem;
-  border-radius: 0.5rem;
+  margin-top: 40px;
+  padding: 0.8rem;
+  border-radius: 3rem;
   color: #f3f4fa;
   background-color: #2d1fbe;
 }
