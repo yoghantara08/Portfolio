@@ -8,17 +8,19 @@ body {
 /* Navbar */
 nav {
   display: flex;
-  background-color: #4f58a3;
+  background-color: white;
   justify-content: space-around;
   height: 70px;
   align-items: center;
+  box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.3);
 }
 
 .logo h3 {
   margin-bottom: 0;
   font-size: 2rem;
   font-weight: bold;
-  color: #f3f4fa;
+  color: #0b0d12;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4), 2px 2px 2px rgba(255, 255, 255, 0.4);
 }
 
 nav ul {
@@ -31,13 +33,13 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #f3f4fa;
+  color: #0b0d12;
   font-size: 1.1rem;
   font-weight: 500;
 }
 nav ul li a:hover {
-  color: #f3f4fa;
-  opacity: 0.8;
+  color: #0b0d12;
+  opacity: 0.5;
 }
 
 /* Hamburger Menu */
@@ -103,7 +105,7 @@ nav ul li a:hover {
 .perkenalan {
   position: relative;
   z-index: 999;
-  padding: 100px 0 50px 0;
+  padding: 100px 0;
 }
 
 .perkenalan p:nth-child(1) {
@@ -119,6 +121,7 @@ nav ul li a:hover {
   font-weight: bold;
   margin-bottom: 12px;
   color: #454759;
+  position: relative;
 }
 
 .perkenalan p:nth-child(3) {
@@ -152,16 +155,16 @@ nav ul li a:hover {
   object-position: 7px;
 }
 
-.jumbotron a {
-  margin-top: 15px;
-  font-size: 1.2rem;
+.jumbotron .container a {
+  margin-top: 30px;
+  font-size: 1.1rem;
   font-weight: 600;
   color: #f3f4fa;
 }
 
 .jumbotron .btn {
   margin-top: 40px;
-  padding: 0.8rem;
+  padding: 0.6rem;
   border-radius: 3rem;
   color: #f3f4fa;
   background-color: #2d1fbe;
@@ -174,6 +177,39 @@ nav ul li a:hover {
   transform: scale(1.1);
 }
 
+/* Social Media */
+.social-media {
+  margin-top: 50px;
+}
+.social-media a {
+  text-decoration: none;
+}
+
+.social-media i {
+  font-size: 2.2rem;
+  color: #0b0d12;
+  font-weight: bold;
+}
+.social-media i:hover {
+  opacity: 0.6;
+  transform: scale(1.2);
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 0;
+}
+
+.down-arrow i {
+  font-size: 1.5rem;
+}
+
+.down-arrow i:hover {
+  opacity: 0.6;
+  transform: scale(1.2);
+}
+
+/* Hiasan Background */
 .hGaris {
   width: 60px;
   height: 1200px;
@@ -197,16 +233,21 @@ nav ul li a:hover {
   top: -39%;
 }
 
-/* ================================= */
+/* ======================================================================== */
 /* Responsive */
-@media (min-width: 1400px) {
-  /* Jumbotron */
+@media screen and (min-width: 1400px) {
   .gambar .gambarJumbotron {
     width: 500px !important;
   }
+  .jumbotron .down-arrow {
+    bottom: 60px;
+  }
+  .jumbotron .down-arrow i {
+    font-size: 1.8rem;
+  }
 }
 
-@media (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
   /* Jumbotron */
   .gambar .gambarJumbotron {
     width: 400px;
@@ -229,7 +270,7 @@ nav ul li a:hover {
 }
 
 /* LG */
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   /* Jumbotron */
   .jumbotron .hGaris {
     width: 40px;
@@ -255,16 +296,23 @@ nav ul li a:hover {
     width: 50%;
   }
 
+  .social-media {
+    text-align: center;
+  }
+
   /* Jumbotron */
+  .jumbotron {
+    padding-bottom: 50px !important;
+  }
   .jumbotron .container .perkenalan {
-    padding: 30px;
+    padding: 30px 0 100px 0;
   }
   .jumbotron .container .perkenalan h1 {
     font-size: 2.5rem;
   }
 
   .jumbotron .container .gambar {
-    padding: 0px;
+    bottom: 120px;
   }
 
   .jumbotron .hGaris {
@@ -272,13 +320,17 @@ nav ul li a:hover {
     transform: rotate(90deg);
   }
   .jumbotron .Garis1 {
-    top: -26%;
+    top: -14%;
   }
   .jumbotron .Garis2 {
-    top: -16%;
+    top: -4%;
   }
   .jumbotron .Garis3 {
-    top: -6%;
+    top: 6%;
+  }
+
+  .jumbotron .down-arrow {
+    display: none;
   }
 }
 
@@ -302,9 +354,14 @@ nav ul li a:hover {
   }
 
   nav ul li a {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: bold;
     color: #0b0d12;
+  }
+
+  nav ul li a:hover {
+    color: #0b0d12;
+    opacity: 0.5;
   }
 
   .hamburger-menu {
@@ -316,29 +373,7 @@ nav ul li a:hover {
     transform: translateX(0);
   }
 
-  /* Jumbotron */
-  .jumbotron .container .perkenalan {
-    padding: 30px;
-  }
   .jumbotron .container .perkenalan h1 {
     font-size: 2.3rem;
-  }
-
-  .jumbotron .container .gambar {
-    padding: 0px;
-  }
-
-  .jumbotron .hGaris {
-    width: 35px;
-    transform: rotate(90deg);
-  }
-  .jumbotron .Garis1 {
-    top: -20%;
-  }
-  .jumbotron .Garis2 {
-    top: -10%;
-  }
-  .jumbotron .Garis3 {
-    top: 0%;
   }
 }
