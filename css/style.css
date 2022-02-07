@@ -262,6 +262,26 @@ nav ul li a:hover {
   font-size: 1.2rem;
 }
 
+.pengalaman {
+  margin-top: 30px;
+}
+.pengalaman .icon i {
+  font-size: 2rem;
+  color: #4f58a3;
+}
+.pengalaman .text-pengalaman h3,
+.pengalaman .text-pengalaman p {
+  text-align: center;
+}
+.text-pengalaman h3 {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #0b0d12;
+}
+.text-pengalaman p {
+  margin-bottom: 0;
+}
+
 /* ======================================================================== */
 /* Responsive */
 @media screen and (min-width: 1400px) {
