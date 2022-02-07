@@ -294,8 +294,13 @@ nav ul li a:hover {
   font-size: 1.2rem;
 }
 
+.my-skill img {
+  width: 100%;
+}
+
 .buku {
-  width: 50%;
+  margin-top: 50px;
+  padding-left: 100px;
 }
 
 /* ======================================================================== */
