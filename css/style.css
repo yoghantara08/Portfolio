@@ -1,6 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif !important;
   background-color: #f0e7db !important;
+  padding-bottom: 500px;
 }
 
 .typed-cursor {
@@ -255,7 +256,8 @@ nav ul li a:hover {
   font-weight: bold;
   text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
 }
-.about-me span {
+.about-me span,
+.skills span {
   color: #9f7766;
 }
 .about-me p {
@@ -280,6 +282,20 @@ nav ul li a:hover {
 }
 .text-pengalaman p {
   margin-bottom: 0;
+}
+
+/* Skills */
+.judul-skill h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.judul-skill p {
+  font-size: 1.2rem;
+}
+
+.buku {
+  width: 50%;
 }
 
 /* ======================================================================== */
