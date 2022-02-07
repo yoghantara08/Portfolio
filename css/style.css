@@ -159,7 +159,7 @@ nav ul li a:hover {
   object-position: 7px;
 }
 
-.jumbotron .container a {
+.jumbotron .container a.btn {
   margin-top: 30px;
   font-size: 1.1rem;
   font-weight: 600;
@@ -185,6 +185,7 @@ nav ul li a:hover {
 .social-media {
   margin-top: 50px;
 }
+
 .social-media a {
   text-decoration: none;
 }
@@ -194,6 +195,7 @@ nav ul li a:hover {
   color: #0b0d12;
   font-weight: bold;
 }
+
 .social-media i:hover {
   opacity: 0.6;
   transform: scale(1.2);
@@ -241,8 +243,22 @@ nav ul li a:hover {
 /* ======================================================================== /
 / About */
 #about {
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 100px;
+}
+
+.about-me h2 {
+  margin-top: 100px;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.about-me span {
+  color: #9f7766;
+}
+
+.about p {
+  font-size: 1.2rem;
 }
 
 /* ======================================================================== */
@@ -256,6 +272,11 @@ nav ul li a:hover {
   }
   .jumbotron .down-arrow i {
     font-size: 1.8rem;
+  }
+
+  .jumbotron .Garis1 {
+    right: 34%;
+    top: -44%;
   }
 }
 
@@ -313,9 +334,6 @@ nav ul li a:hover {
   }
 
   /* Jumbotron */
-  .jumbotron {
-    padding-bottom: 50px !important;
-  }
   .jumbotron .container .perkenalan {
     padding: 30px 0 100px 0;
   }
@@ -343,6 +361,11 @@ nav ul li a:hover {
 
   .jumbotron .down-arrow {
     display: none;
+  }
+
+  #about {
+    padding-top: 0px;
+    padding-bottom: 50px;
   }
 }
 
