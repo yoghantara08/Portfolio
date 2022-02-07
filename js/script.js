@@ -7,8 +7,8 @@ menuHamburger.addEventListener('click', function () {
 
 // Typed JS
 var typed = new Typed('.perkenalan p:nth-child(3)', {
-  strings: ['Front-end Developer ^1000', 'Student of ITB Stikom Bali ^1000'],
-  typeSpeed: 80,
+  strings: ['Front-end Developer ^1000', 'Student of ITB Stikom Bali ^1000', 'Gamers ^1000'],
+  typeSpeed: 70,
   backSpeed: 40,
   loop: true,
 });
