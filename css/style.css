@@ -1,18 +1,20 @@
 body {
   font-family: 'Poppins', sans-serif !important;
+  background-color: #f0e7db !important;
 }
 
 .typed-cursor {
   display: none;
 }
+
 /* Navbar */
 nav {
   display: flex;
-  background-color: white;
+  background-color: #f4ede4;
   justify-content: space-around;
   height: 70px;
   align-items: center;
-  box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.1);
 }
 
 .logo h3 {
@@ -93,6 +95,8 @@ nav ul li a:hover {
   color: #9f7766;
   color: #4f58a3;
   color: #e52028;
+  color: #f0e7db;
+  color: #f4ede4;
 }
 
 /* Jumbotron */
@@ -120,7 +124,7 @@ nav ul li a:hover {
   font-size: 3.2rem;
   font-weight: bold;
   margin-bottom: 12px;
-  color: #454759;
+  color: #0b0d12;
   position: relative;
 }
 
@@ -201,6 +205,7 @@ nav ul li a:hover {
 }
 
 .down-arrow i {
+  color: #0b0d12;
   font-size: 1.5rem;
 }
 
@@ -346,9 +351,9 @@ nav ul li a:hover {
     flex-direction: column;
     height: 100vh;
     width: 90%;
-    background-color: #f3f4fa;
+    background-color: #f0e7db;
     transform: translateX(-100%);
-    transition: all 1s;
+    transition: 0.8s;
     opacity: 0;
     margin-top: 70px;
   }
