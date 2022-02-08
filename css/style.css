@@ -293,7 +293,8 @@ nav ul li a:hover {
 .judul-skill p {
   font-size: 1.2rem;
   color: #454759;
-  font-weight: 400;
+  font-weight: 500;
+  margin-bottom: 30px;
 }
 .buku {
   margin-top: 50px;
@@ -308,14 +309,74 @@ nav ul li a:hover {
   height: 280px;
   padding: 20px;
   box-sizing: border-box;
-  border: 1px solid black;
+  box-shadow: 0px 0px 15px -5px #9f7766;
+  border-radius: 1.5rem;
   text-align: center;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
-
 .skill {
   width: 200px;
+}
+.skill h3 {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #0b0d12;
+  transition: all 0.4s;
+}
+
+.skill-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(159, 119, 101, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.4s;
+}
+.skill-overlay p {
+  color: #f4ede4;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+}
+.skills .col-lg-4:hover .skill-overlay {
+  opacity: 1;
+  transform: translateX(0);
+}
+.skills .col-lg-4:hover .skill h3 {
+  opacity: 0;
+}
+.html p:nth-child(1) {
+  color: crimson;
+}
+.css p:nth-child(1) {
+  color: skyblue;
+}
+.javascript p:nth-child(1) {
+  color: rgb(216, 216, 5);
+}
+.bootstrap p:nth-child(1) {
+  color: purple;
+}
+.sass p:nth-child(1) {
+  color: pink;
+}
+.git p:nth-child(1) {
+  color: red;
+}
+.github p:nth-child(1) {
+  color: rgba(0, 0, 0, 0.4);
 }
 
 /* ======================================================================== */
@@ -474,5 +535,11 @@ nav ul li a:hover {
   }
   .my-skill h3 {
     font-size: 3rem;
+  }
+  .buku {
+    padding-left: 50px;
+  }
+  .skills .col-lg-4 {
+    margin-right: 0;
   }
 }
