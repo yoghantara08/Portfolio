@@ -292,25 +292,30 @@ nav ul li a:hover {
 }
 .judul-skill p {
   font-size: 1.2rem;
+  color: #454759;
+  font-weight: 400;
 }
-
-.my-skill {
-  box-sizing: border-box;
-  width: 200px;
-  text-align: center;
-  margin-bottom: 30px;
-}
-.my-skill h3 {
-  font-weight: 600;
-}
-
-.my-skill img {
-  width: 100%;
-}
-
 .buku {
   margin-top: 50px;
   padding-left: 100px;
+}
+/* box skill */
+.skills .col-lg-4 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 300px;
+  height: 280px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.skill {
+  width: 200px;
 }
 
 /* ======================================================================== */
