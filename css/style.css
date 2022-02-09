@@ -414,18 +414,18 @@ nav ul li a:hover {
 
 .thumbnail {
   box-sizing: border-box;
-  padding: 20px !important;
-  box-shadow: 0px 0px 15px -5px #0b0d12;
+  padding: 0 !important;
+  box-shadow: 0px 0px 15px -5px #9f7766;
   border-radius: 1rem;
+  transition: all 0.4s;
 }
 .jumbo {
   width: 100%;
   border-radius: 1rem;
-  transition: all 0.4s;
 }
-.jumbo:hover {
+.thumbnail:hover {
   cursor: pointer;
-  transform: scaleX(1.08) scaleY(1.12);
+  transform: translateY(-10px);
 }
 .text-review {
   padding-left: 30px !important;
@@ -437,19 +437,29 @@ nav ul li a:hover {
   margin-bottom: 30px;
 }
 .kotak-thumb {
-  padding: 12px;
+  padding: 0 !important;
   box-shadow: 0px 0px 15px -5px #0b0d12;
   border-radius: 1rem;
+  transition: all 0.4s;
+  background-color: #f3f4fa;
 }
 
 .thumb {
-  border-radius: 1rem;
+  border-radius: 1rem 1rem 0 0;
   cursor: pointer;
   width: 100%;
   transition: 0.4s;
 }
-.kotak-thumb:hover .thumb {
+.thumb:hover {
   opacity: 0.8;
+}
+.kotak-thumb:hover {
+  transform: translateY(-10px);
+}
+
+.demo {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .demo a {
