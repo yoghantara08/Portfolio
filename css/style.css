@@ -415,7 +415,7 @@ nav ul li a:hover {
 .thumbnail {
   box-sizing: border-box;
   padding: 20px !important;
-  box-shadow: 0px 0px 15px -5px #9f7766;
+  box-shadow: 0px 0px 15px -5px #0b0d12;
   border-radius: 1rem;
 }
 .jumbo {
@@ -434,15 +434,51 @@ nav ul li a:hover {
   padding-left: 0 !important;
   padding-right: 24px !important;
   border-radius: 1rem;
+  margin-bottom: 30px;
 }
 .kotak-thumb {
   padding: 12px;
-  box-shadow: 0px 0px 15px -5px #9f7766;
+  box-shadow: 0px 0px 15px -5px #0b0d12;
   border-radius: 1rem;
 }
+
 .thumb {
   border-radius: 1rem;
   cursor: pointer;
+  width: 100%;
+  transition: 0.4s;
+}
+.kotak-thumb:hover .thumb {
+  opacity: 0.8;
+}
+
+.demo a {
+  text-decoration: none;
+  display: block;
+  font-size: 1.2rem;
+  color: #f3f4fa;
+  font-weight: 600;
+}
+
+.demo-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+  background-color: #2d1fbe;
+  margin-right: 30px;
+}
+.github-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.4rem;
+  background-color: #2d1fbe;
+}
+.demo:hover a {
+  color: #f3f4fa;
 }
 
 @keyframes fadeIn {
