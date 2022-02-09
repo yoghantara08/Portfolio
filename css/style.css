@@ -244,8 +244,9 @@ nav ul li a:hover {
 /* ======================================================================== /
 / About */
 #about {
-  padding-top: 200px;
+  padding-top: 150px;
   padding-bottom: 100px;
+  background-color: rgba(159, 119, 102, 0.1);
 }
 
 .about-me {
@@ -382,8 +383,9 @@ nav ul li a:hover {
 /* ======================================================================== */
 /* Projects */
 #project {
-  padding-top: 200px;
+  padding-top: 150px;
   padding-bottom: 100px;
+  background-color: rgba(159, 119, 102, 0.1);
 }
 
 .judul-project {
@@ -609,6 +611,10 @@ nav ul li a:hover {
   #about {
     padding-top: 0px;
     padding-bottom: 50px;
+  }
+
+  .review-project {
+    display: none !important;
   }
 }
 
