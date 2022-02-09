@@ -31,18 +31,42 @@ container.addEventListener('click', function (e) {
 const pStikom = document.querySelector('.pStikom');
 const pPortfolio = document.querySelector('.pPortfolio');
 const pGameSuit = document.querySelector('.pGameSuit');
-const textReviewH2 = document.querySelector('.col-lg-6.text-review h2');
-const textReviewP = document.querySelector('.col-lg-6.text-review p');
+const textReviewH2 = document.querySelector('.col-md-6.text-review h2');
+const textReviewP = document.querySelector('.col-md-6.text-review p');
 
 pStikom.addEventListener('click', function () {
   textReviewH2.innerHTML = 'Redesign Web Stikom Bali';
-  textReviewP.innerHTML = 'tes';
+  textReviewP.innerHTML = 'Mendesain ulang Website ITB Stikom Bali <br> <strong>Tools yang digunakan :</strong> HTML,CSS,Bootstrap,Javascript';
+  textReviewH2.classList.add('fadeUp');
+  setTimeout(function () {
+    textReviewH2.classList.remove('fadeUp');
+  }, 500);
+  textReviewP.classList.add('fadeUp');
+  setTimeout(function () {
+    textReviewP.classList.remove('fadeUp');
+  }, 500);
 });
 pPortfolio.addEventListener('click', function () {
   textReviewH2.innerHTML = 'Personal Portfolio Website';
-  textReviewP.innerHTML = 'tes';
+  textReviewP.innerHTML = 'Website pribadi tentang Portfolio saya <br> <strong>Tools yang digunakan :</strong> HTML,CSS,Bootstrap,Javascript';
+  textReviewH2.classList.add('fadeUp');
+  setTimeout(function () {
+    textReviewH2.classList.remove('fadeUp');
+  }, 500);
+  textReviewP.classList.add('fadeUp');
+  setTimeout(function () {
+    textReviewP.classList.remove('fadeUp');
+  }, 500);
 });
 pGameSuit.addEventListener('click', function () {
-  textReviewH2.innerHTML = 'Web Game Suit';
-  textReviewP.innerHTML = 'tes';
+  textReviewH2.innerHTML = 'Game Suit';
+  textReviewP.innerHTML = 'Game Suit batu,gunting,kertas yang dibuat menggunakan Javascript <br> <strong>Tools yang digunakan :</strong> HTML,CSS,Javascript';
+  textReviewH2.classList.add('fadeUp');
+  setTimeout(function () {
+    textReviewH2.classList.remove('fadeUp');
+  }, 500);
+  textReviewP.classList.add('fadeUp');
+  setTimeout(function () {
+    textReviewP.classList.remove('fadeUp');
+  }, 500);
 });
