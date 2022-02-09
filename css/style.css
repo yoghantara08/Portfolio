@@ -408,6 +408,13 @@ nav ul li a:hover {
   margin-top: 10px;
 }
 
+.review-project {
+  margin-bottom: 30px;
+}
+.thumbnail {
+  box-sizing: border-box;
+}
+
 /* ======================================================================== */
 /* Responsive */
 @media screen and (min-width: 1400px) {

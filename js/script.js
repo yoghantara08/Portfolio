@@ -12,3 +12,13 @@ var typed = new Typed('.perkenalan p:nth-child(3)', {
   backSpeed: 40,
   loop: true,
 });
+
+const container = document.querySelector('.container.project');
+const jumbo = document.querySelector('.jumbo.img-fluid');
+const thumbs = document.querySelectorAll('.thumb');
+
+container.addEventListener('click', function (e) {
+  if (e.target.className == 'thumb img-fluid') {
+    jumbo.src = e.target.src;
+  }
+});
