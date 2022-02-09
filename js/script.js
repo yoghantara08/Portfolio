@@ -1,3 +1,4 @@
+// Navbar
 const menuHamburger = document.querySelector('.hamburger-menu input');
 const nav = document.querySelector('nav ul');
 
@@ -13,6 +14,7 @@ var typed = new Typed('.perkenalan p:nth-child(3)', {
   loop: true,
 });
 
+// My Projects
 const container = document.querySelector('.container.project');
 const jumbo = document.querySelector('.jumbo.img-fluid');
 

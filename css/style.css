@@ -411,8 +411,38 @@ nav ul li a:hover {
 .review-project {
   margin-bottom: 30px;
 }
+
 .thumbnail {
   box-sizing: border-box;
+  padding: 20px !important;
+  box-shadow: 0px 0px 15px -5px #9f7766;
+  border-radius: 1rem;
+}
+.jumbo {
+  width: 100%;
+  border-radius: 1rem;
+  transition: all 0.4s;
+}
+.jumbo:hover {
+  cursor: pointer;
+  transform: scaleX(1.08) scaleY(1.12);
+}
+.text-review {
+  padding-left: 30px !important;
+}
+.myProject {
+  padding-left: 0 !important;
+  padding-right: 24px !important;
+  border-radius: 1rem;
+}
+.kotak-thumb {
+  padding: 12px;
+  box-shadow: 0px 0px 15px -5px #9f7766;
+  border-radius: 1rem;
+}
+.thumb {
+  border-radius: 1rem;
+  cursor: pointer;
 }
 
 @keyframes fadeIn {
