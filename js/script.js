@@ -20,5 +20,9 @@ const thumbs = document.querySelectorAll('.thumb');
 container.addEventListener('click', function (e) {
   if (e.target.className == 'thumb img-fluid') {
     jumbo.src = e.target.src;
+    jumbo.classList.add('fade');
+    setTimeout(function () {
+      jumbo.classList.remove('fade');
+    }, 500);
   }
 });

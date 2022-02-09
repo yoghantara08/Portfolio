@@ -415,6 +415,19 @@ nav ul li a:hover {
   box-sizing: border-box;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade {
+  animation: fadeIn 0.5s;
+}
+
 /* ======================================================================== */
 /* Responsive */
 @media screen and (min-width: 1400px) {
