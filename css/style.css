@@ -1,6 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif !important;
   background-color: #f0e7db !important;
+  height: 100vh;
 }
 
 .typed-cursor {
@@ -518,7 +519,6 @@ nav ul li a:hover {
 /* Contact */
 #contact {
   padding-top: 80px;
-  padding-bottom: 100px;
 }
 .contact h1 {
   font-size: 3rem;
@@ -551,6 +551,33 @@ nav ul li a:hover {
 }
 .contact button {
   margin-top: 20px;
+}
+
+/* ======================================================================== */
+/* Footer */
+.text-footer {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: rgba(159, 119, 101, 0.5);
+  font-weight: 600;
+}
+.text-footer P {
+  margin: 0;
+}
+.text-footer P:nth-child(2) {
+  margin-top: 15px;
+  padding-bottom: 50px;
+}
+.text-footer i {
+  color: rgb(187, 20, 54);
+}
+.text-footer a {
+  color: #9f7766;
+  font-weight: bold;
+}
+.text-footer a:hover {
+  color: #9f7766;
+  opacity: 0.5;
 }
 
 /* ======================================================================== */
@@ -679,6 +706,9 @@ nav ul li a:hover {
   }
   .myProject {
     padding: 0 !important;
+  }
+  .text-footer {
+    font-size: 1.2rem;
   }
 }
 
