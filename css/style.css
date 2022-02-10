@@ -658,9 +658,41 @@ nav ul li a:hover {
 
 /* MD */
 @media screen and (max-width: 768px) {
-  /* Navbar */
+  /* navbar */
   nav ul {
-    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 90%;
+    background-color: #9f7766;
+    transform: translateX(-100%);
+    transition: 0.8s;
+    opacity: 0;
+    margin-top: 70px;
+  }
+
+  nav ul li a {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #0b0d12;
+  }
+
+  nav ul li a:hover {
+    color: #0b0d12;
+    opacity: 0.5;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  nav ul.slide {
+    opacity: 1;
+    transform: translateX(0);
   }
 
   .social-media {
@@ -677,6 +709,9 @@ nav ul li a:hover {
 
   .jumbotron .container .gambar {
     bottom: 120px;
+  }
+  .jumbotron .gambar {
+    padding-bottom: 0 !important;
   }
 
   .jumbotron .hGaris {
@@ -715,43 +750,6 @@ nav ul li a:hover {
 
 /* SM */
 @media screen and (max-width: 576px) {
-  /* navbar */
-  nav ul {
-    position: absolute;
-    left: 0;
-    top: 0;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 90%;
-    background-color: #9f7766;
-    transform: translateX(-100%);
-    transition: 0.8s;
-    opacity: 0;
-    margin-top: 70px;
-  }
-
-  nav ul li a {
-    font-size: 1.4rem;
-    font-weight: bold;
-    color: #0b0d12;
-  }
-
-  nav ul li a:hover {
-    color: #0b0d12;
-    opacity: 0.5;
-  }
-
-  .hamburger-menu {
-    display: flex;
-  }
-
-  nav ul.slide {
-    opacity: 1;
-    transform: translateX(0);
-  }
-
   .jumbotron .container .perkenalan h1 {
     font-size: 2.3rem;
   }

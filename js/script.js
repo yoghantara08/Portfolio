@@ -8,7 +8,7 @@ menuHamburger.addEventListener('click', function () {
 
 // Typed JS
 var typed = new Typed('.perkenalan p:nth-child(3)', {
-  strings: ['Web Developer ^1000', 'Student ^1000', 'Gamers ^1000'],
+  strings: ['^500 Web Developer ^1000', 'Student ^1000', 'Gamers ^500'],
   typeSpeed: 70,
   backSpeed: 40,
   loop: true,

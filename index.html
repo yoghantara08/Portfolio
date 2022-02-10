@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <!-- Typed JS -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Aos JS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- Navbar -->
@@ -42,11 +44,13 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 perkenalan">
-              <p>Hi, I'am</p>
-              <h1>Gustut Yoghantara</h1>
-              <p></p>
-              <a href="#" class="btn">Contact Me <i class="fas fa-chevron-right"></i></a>
-              <div class="social-media">
+              <div data-aos="slide-up" data-aos-duration="1000">
+                <p>Hi, I'am</p>
+                <h1>Gustut Yoghantara</h1>
+                <p></p>
+              </div>
+              <a href="#" class="btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Contact Me <i class="fas fa-chevron-right"></i></a>
+              <div class="social-media" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                 <a href="https://github.com/yoghantara08" target="_blank">
                   <i class="fab fa-github"></i>
                 </a>
@@ -64,7 +68,7 @@
               </div>
             </div>
             <div class="col-md-6 gambar mt-4">
-              <div class="gambarJumbotron ms-md-auto">
+              <div class="gambarJumbotron ms-md-auto" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="500">
                 <img src="img/yoghantara.png" alt="" class="img-fluid" />
               </div>
             </div>
@@ -84,24 +88,26 @@
           <div class="row d-flex">
             <div class="col-md-6 order-md-last">
               <div class="about-me">
-                <h2>About <span>Me</span></h2>
-                <p>
-                  Hi, perkenalkan nama saya Ida Bagus Ketut Yoghantara, biasa dipanggil Gustut. Umur saya 20 Tahun dan saya tinggal di Bali,Indonesia. Saat ini saya sedang menjalani studi di Universitas ITB Stikom Bali Jurusan Sistem
-                  Informasi. Saya sangat tertarik dengan Web Development dan sedang mempelajari semua hal tentang Web Development.
-                </p>
+                <div data-aos="fade-up" data-aos-duration="1000">
+                  <h2>About <span>Me</span></h2>
+                  <p>
+                    Hi, perkenalkan nama saya Ida Bagus Ketut Yoghantara, biasa dipanggil Gustut. Umur saya 20 Tahun dan saya tinggal di Bali,Indonesia. Saat ini saya sedang menjalani studi di Universitas ITB Stikom Bali, jurusan Sistem
+                    Informasi. Saya sangat tertarik dengan Web Development dan sedang mempelajari semua hal tentang Web Development.
+                  </p>
+                </div>
                 <div class="pengalaman d-flex mb-5 pb-5">
-                  <div class="icon">
+                  <div class="icon" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                     <i class="fas fa-book me-3"></i>
                   </div>
-                  <div class="text-pengalaman">
+                  <div class="text-pengalaman" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                     <h3>2+</h3>
                     <p>Months</p>
                     <p>Experience</p>
                   </div>
-                  <div class="icon ms-5">
+                  <div class="icon ms-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                     <i class="fas fa-tasks"></i>
                   </div>
-                  <div class="text-pengalaman">
+                  <div class="text-pengalaman" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                     <h3>3+</h3>
                     <p>Completed</p>
                     <p>Projects</p>
@@ -110,7 +116,7 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div class="gambar-about text-center">
+              <div class="gambar-about text-center" data-aos="fade-up" data-aos-duration="1000">
                 <img src="img/humans1.png" alt="" class="img-fluid" />
               </div>
             </div>
@@ -123,13 +129,13 @@
     <section class="skills mt-5">
       <div class="container-fluid">
         <div class="container">
-          <div class="judul-skill text-center">
+          <div class="judul-skill text-center" data-aos="flip-down" data-aos-duration="1000">
             <h1>My <span>Skills</span></h1>
             <p>Thing's that i've already learn</p>
           </div>
           <div class="row justify-content-center">
             <!-- HTML -->
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
               <div class="skill">
                 <div class="skill-img">
                   <img src="img/logo/html.png" alt="" class="img-fluid" />
@@ -144,7 +150,7 @@
               </div>
             </div>
             <!-- CSS -->
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
               <div class="skill">
                 <div class="skill-img">
                   <img src="img/logo/css.png" alt="" class="img-fluid" />
@@ -159,7 +165,7 @@
               </div>
             </div>
             <!-- Javascript -->
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
               <div class="skill">
                 <div class="skill-img">
                   <img src="img/logo/javascript.png" alt="" class="img-fluid" />
@@ -174,7 +180,7 @@
               </div>
             </div>
             <!-- Bootstrap -->
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
               <div class="skill">
                 <div class="skill-img">
                   <img src="img/logo/bootstrap-logo.png" alt="" class="img-fluid" />
@@ -189,7 +195,7 @@
               </div>
             </div>
             <!-- Sass -->
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
               <div class="skill">
                 <div class="skill-img">
                   <img src="img/logo/sass.png" alt="" class="img-fluid" />
@@ -204,7 +210,7 @@
               </div>
             </div>
             <!-- Git -->
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
               <div class="skill">
                 <div class="skill-img">
                   <img src="img/logo/git.png" alt="" class="img-fluid" />
@@ -219,7 +225,7 @@
               </div>
             </div>
             <!-- GitHub -->
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
               <div class="skill">
                 <div class="skill-img">
                   <img src="img/logo/github.png" alt="" class="img-fluid" />
@@ -246,10 +252,10 @@
     <section id="project">
       <div class="container-fluid">
         <div class="container project">
-          <div class="judul-project">
+          <div class="judul-project" data-aos="fade-left" data-aos-duration="1000">
             <h1>My <span>Projects</span></h1>
           </div>
-          <div class="row review-project">
+          <div class="row review-project" data-aos="fade-up" data-aos-duration="1000">
             <div class="col-md-6 thumbnail">
               <img src="img/Projects/web-stikom.png" alt="" class="jumbo img-fluid" />
             </div>
@@ -263,7 +269,7 @@
           </div>
           <!-- My Project -->
           <div class="row">
-            <div class="col-md-4 myProject pPortfolio">
+            <div class="col-md-4 myProject pPortfolio" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
               <div class="kotak-thumb">
                 <img src="img/Projects/web-portfolio.png" alt="" class="thumb img-fluid" />
                 <div class="demo d-flex justify-content-center">
@@ -272,7 +278,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 myProject pStikom">
+            <div class="col-md-4 myProject pStikom" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
               <div class="kotak-thumb">
                 <img src="img/Projects/web-stikom.png" alt="" class="thumb img-fluid" />
                 <div class="demo d-flex justify-content-center">
@@ -281,7 +287,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 myProject pGameSuit">
+            <div class="col-md-4 myProject pGameSuit" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
               <div class="kotak-thumb">
                 <img src="img/Projects/web-game-suit.png" alt="" class="thumb img-fluid" />
                 <div class="demo d-flex justify-content-center">
@@ -298,7 +304,7 @@
 
     <!-- Contact -->
     <section id="contact">
-      <div class="container contact">
+      <div class="container contact" data-aos="fade-up" data-aos-duration="1000">
         <h1 class="garis-bawah"><span>Contact</span> Me</h1>
         <div class="row">
           <div class="col-md-8">
@@ -344,5 +350,10 @@
     <script src="js/script.js"></script>
     <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Aos Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
