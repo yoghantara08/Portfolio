@@ -85,20 +85,6 @@ nav ul li a:hover {
   transform: rotate(-45deg) translate(-1px, 0);
 }
 
-.warna {
-  color: #f3f4fa;
-  color: #a5a6b5;
-  color: #2d1fbe;
-  color: #0b0d12;
-  color: #454759;
-  color: #728da6;
-  color: #9f7766;
-  color: #4f58a3;
-  color: #e52028;
-  color: #f0e7db;
-  color: #f4ede4;
-}
-
 /* Jumbotron */
 .jumbotron {
   position: relative;
@@ -708,7 +694,7 @@ nav ul li a:hover {
     flex-direction: column;
     height: 100vh;
     width: 90%;
-    background-color: #f0e7db;
+    background-color: #9f7766;
     transform: translateX(-100%);
     transition: 0.8s;
     opacity: 0;
