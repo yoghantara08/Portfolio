@@ -85,10 +85,12 @@ nav ul li a:hover {
   transform: rotate(-45deg) translate(-1px, 0);
 }
 
+/* ==================================================================== */
 /* Jumbotron */
 .jumbotron {
   position: relative;
   overflow: hidden;
+  margin-top: 70px;
 }
 
 /* Perkenalan */
