@@ -1,7 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif !important;
   background-color: #f0e7db !important;
-  padding-bottom: 500px;
 }
 
 .typed-cursor {
@@ -530,6 +529,45 @@ nav ul li a:hover {
 }
 
 /* ======================================================================== */
+/* Contact */
+#contact {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.contact h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.contact h1::after {
+  content: '';
+  display: block;
+  border-bottom: 4px solid #0b0d12;
+  width: 7%;
+  margin: auto;
+  margin-top: 5px;
+}
+.contact span {
+  color: #9f7766;
+}
+.form-nama label,
+.form-email label,
+.form-pesan label {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.contact input,
+.contact textarea {
+  margin-bottom: 5px;
+}
+.contact button {
+  margin-top: 20px;
+}
+
+/* ======================================================================== */
 /* Responsive */
 @media screen and (min-width: 1400px) {
   .gambar .gambarJumbotron {
@@ -568,6 +606,9 @@ nav ul li a:hover {
     right: 20%;
     top: -30%;
   }
+  .down-arrow {
+    bottom: 20px;
+  }
 }
 
 /* LG */
@@ -595,6 +636,9 @@ nav ul li a:hover {
   }
   .text-review p {
     font-size: 1rem;
+  }
+  .down-arrow {
+    bottom: 20px;
   }
 }
 

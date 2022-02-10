@@ -8,7 +8,7 @@ menuHamburger.addEventListener('click', function () {
 
 // Typed JS
 var typed = new Typed('.perkenalan p:nth-child(3)', {
-  strings: ['Web Developer ^1000', 'Student of ITB Stikom Bali ^1000', 'Gamers ^1000'],
+  strings: ['Web Developer ^1000', 'Student ^1000', 'Gamers ^1000'],
   typeSpeed: 70,
   backSpeed: 40,
   loop: true,
@@ -60,7 +60,7 @@ pPortfolio.addEventListener('click', function () {
 });
 pGameSuit.addEventListener('click', function () {
   textReviewH2.innerHTML = 'Game Suit';
-  textReviewP.innerHTML = 'Game Suit batu,gunting,kertas yang dibuat menggunakan Javascript <br> <strong>Tools yang digunakan :</strong> HTML,CSS,Javascript';
+  textReviewP.innerHTML = 'Game Suit batu,gunting,kertas yang dibuat menggunakan Javascript <br> <strong>Tools yang digunakan :</strong> <br> HTML,CSS,Javascript';
   textReviewH2.classList.add('fadeUp');
   setTimeout(function () {
     textReviewH2.classList.remove('fadeUp');
