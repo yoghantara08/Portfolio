@@ -7,6 +7,10 @@ body {
   display: none;
 }
 
+#home {
+  scroll-margin-top: 70px;
+}
+
 /* Navbar */
 nav {
   display: flex;
