@@ -17,56 +17,41 @@ var typed = new Typed('.perkenalan p:nth-child(3)', {
 // My Projects
 const container = document.querySelector('.container.project');
 const jumbo = document.querySelector('.jumbo.img-fluid');
+const textReview = document.querySelector('.text-review');
+const textReviewH2 = document.querySelector('.col-md-6.text-review h2');
+const textReviewP = document.querySelector('.col-md-6.text-review p');
+const myProject = document.querySelectorAll('.myProject');
 
-container.addEventListener('click', function (e) {
+container.addEventListener('click', (e) => {
   if (e.target.className == 'thumb img-fluid') {
     jumbo.src = e.target.src;
     jumbo.classList.add('fade');
-    setTimeout(function () {
+    setTimeout(() => {
       jumbo.classList.remove('fade');
     }, 500);
   }
+
+  myProject.forEach(() => {
+    textReview.classList.add('fadeUp');
+    setTimeout(() => {
+      textReview.classList.remove('fadeUp');
+    }, 500);
+  });
 });
 
 const pStikom = document.querySelector('.pStikom');
 const pPortfolio = document.querySelector('.pPortfolio');
 const pGameSuit = document.querySelector('.pGameSuit');
-const textReviewH2 = document.querySelector('.col-md-6.text-review h2');
-const textReviewP = document.querySelector('.col-md-6.text-review p');
 
-pStikom.addEventListener('click', function () {
+pStikom.addEventListener('click', () => {
   textReviewH2.innerHTML = 'Redesign Web Stikom Bali';
-  textReviewP.innerHTML = 'Mendesain ulang Website ITB Stikom Bali <br> <strong>Tools yang digunakan :</strong> HTML,CSS,Bootstrap,Javascript';
-  textReviewH2.classList.add('fadeUp');
-  setTimeout(function () {
-    textReviewH2.classList.remove('fadeUp');
-  }, 500);
-  textReviewP.classList.add('fadeUp');
-  setTimeout(function () {
-    textReviewP.classList.remove('fadeUp');
-  }, 500);
+  textReviewP.innerHTML = 'Mendesain ulang Website ITB Stikom Bali <br> <strong>Tools yang digunakan :</strong> <br> HTML,CSS,Bootstrap,Javascript';
 });
-pPortfolio.addEventListener('click', function () {
+pPortfolio.addEventListener('click', () => {
   textReviewH2.innerHTML = 'Personal Portfolio Website';
-  textReviewP.innerHTML = 'Website pribadi tentang Portfolio saya <br> <strong>Tools yang digunakan :</strong> HTML,CSS,Bootstrap,Javascript';
-  textReviewH2.classList.add('fadeUp');
-  setTimeout(function () {
-    textReviewH2.classList.remove('fadeUp');
-  }, 500);
-  textReviewP.classList.add('fadeUp');
-  setTimeout(function () {
-    textReviewP.classList.remove('fadeUp');
-  }, 500);
+  textReviewP.innerHTML = 'Website pribadi tentang Portfolio saya <br> <strong>Tools yang digunakan :</strong> <br> HTML,CSS,Bootstrap,Javascript';
 });
-pGameSuit.addEventListener('click', function () {
+pGameSuit.addEventListener('click', () => {
   textReviewH2.innerHTML = 'Game Suit';
   textReviewP.innerHTML = 'Game Suit batu,gunting,kertas yang dibuat menggunakan Javascript <br> <strong>Tools yang digunakan :</strong> <br> HTML,CSS,Javascript';
-  textReviewH2.classList.add('fadeUp');
-  setTimeout(function () {
-    textReviewH2.classList.remove('fadeUp');
-  }, 500);
-  textReviewP.classList.add('fadeUp');
-  setTimeout(function () {
-    textReviewP.classList.remove('fadeUp');
-  }, 500);
 });
