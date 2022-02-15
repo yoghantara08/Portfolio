@@ -14,6 +14,7 @@
 ### :computer: | Section Web
 - Home
 - About
+- Skilss
 - Projects
 - Contact
 
