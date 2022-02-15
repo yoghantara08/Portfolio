@@ -18,22 +18,31 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="fixed-top">
-      <div class="logo">
-        <h3>Yoghantara</h3>
-      </div>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#project">Project</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <!-- Hamburger Menu -->
-      <div class="hamburger-menu">
-        <input type="checkbox" />
-        <span></span>
-        <span></span>
-        <span></span>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container text-uppercase">
+        <a class="navbar-brand text-capitalize fw-bolder fs-2" href="#">Yoghantara</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto justify-content-center">
+            <li class="nav-item text-center">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
     <!-- Akhir Navbar -->
@@ -126,7 +135,7 @@
     </section>
 
     <!-- Skills -->
-    <section class="skills mt-5">
+    <section class="skills mt-5" id="skills">
       <div class="container-fluid">
         <div class="container">
           <div class="judul-skill text-center" data-aos="flip-down" data-aos-duration="1000">
@@ -249,7 +258,7 @@
     <!-- Akhir About -->
 
     <!-- Project -->
-    <section id="project">
+    <section id="projects">
       <div class="container-fluid">
         <div class="container project">
           <div class="judul-project" data-aos="fade-left" data-aos-duration="1000">
@@ -271,17 +280,7 @@
           <!-- My Project -->
           <div class="row">
             <!-- Portfolio -->
-            <div class="col-md-4 myProject pPortfolio" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-              <div class="kotak-thumb">
-                <img src="img/Projects/web-portfolio.png" alt="" class="thumb img-fluid" />
-                <div class="demo d-flex justify-content-center">
-                  <a href="https://yoghantara08.github.io/Portfolio/" target="_blank" class="demo-btn">Demo</a>
-                  <a href="https://github.com/yoghantara08/Portfolio" target="_blank" class="github-btn">GitHub</a>
-                </div>
-              </div>
-            </div>
-            <!-- Stikom -->
-            <div class="col-md-4 myProject pStikom" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            <div class="col-lg-4 myProject pSatu" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
               <div class="kotak-thumb">
                 <img src="img/Projects/web-stikom.png" alt="" class="thumb img-fluid" />
                 <div class="demo d-flex justify-content-center">
@@ -290,13 +289,23 @@
                 </div>
               </div>
             </div>
-            <!-- Suit -->
-            <div class="col-md-4 myProject pGameSuit" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+            <!-- Stikom -->
+            <div class="col-lg-4 myProject pDua" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
               <div class="kotak-thumb">
                 <img src="img/Projects/web-game-suit.png" alt="" class="thumb img-fluid" />
                 <div class="demo d-flex justify-content-center">
                   <a href="https://yoghantara08.github.io/Game-Suit/" target="_blank" class="demo-btn">Demo</a>
                   <a href="https://github.com/yoghantara08/Game-Suit" target="_blank" class="github-btn">GitHub</a>
+                </div>
+              </div>
+            </div>
+            <!-- Suit -->
+            <div class="col-lg-4 myProject pTiga" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+              <div class="kotak-thumb">
+                <img src="img/Projects/coming-soon.png" alt="" class="thumb img-fluid" />
+                <div class="demo d-flex justify-content-center">
+                  <a class="demo-btn">Demo</a>
+                  <a class="github-btn">GitHub</a>
                 </div>
               </div>
             </div>

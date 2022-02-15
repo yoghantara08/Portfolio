@@ -1,11 +1,3 @@
-// Navbar
-const menuHamburger = document.querySelector('.hamburger-menu input');
-const nav = document.querySelector('nav ul');
-
-menuHamburger.addEventListener('click', function () {
-  nav.classList.toggle('slide');
-});
-
 // Typed JS
 var typed = new Typed('.perkenalan p:nth-child(3)', {
   strings: ['^500 Web Developer ^1000', 'Student ^1000', 'Gamers ^500'],
@@ -29,29 +21,29 @@ container.addEventListener('click', (e) => {
     setTimeout(() => {
       jumbo.classList.remove('fade');
     }, 500);
-  }
 
-  myProject.forEach(() => {
-    textReview.classList.add('fadeUp');
-    setTimeout(() => {
-      textReview.classList.remove('fadeUp');
-    }, 500);
-  });
+    myProject.forEach(() => {
+      textReview.classList.add('fadeUp');
+      setTimeout(() => {
+        textReview.classList.remove('fadeUp');
+      }, 500);
+    });
+  }
 });
 
-const pStikom = document.querySelector('.pStikom');
-const pPortfolio = document.querySelector('.pPortfolio');
-const pGameSuit = document.querySelector('.pGameSuit');
+const pSatu = document.querySelector('.pSatu');
+const pDua = document.querySelector('.pDua');
+const pTiga = document.querySelector('.pTiga');
 
-pStikom.addEventListener('click', () => {
+pSatu.addEventListener('click', () => {
   textReviewH2.innerHTML = 'Redesign Web Stikom Bali';
   textReviewP.innerHTML = 'Mendesain ulang Website ITB Stikom Bali <br> <strong>Tools yang digunakan :</strong> <br> HTML,CSS,Bootstrap,Javascript';
 });
-pPortfolio.addEventListener('click', () => {
-  textReviewH2.innerHTML = 'Personal Portfolio Website';
-  textReviewP.innerHTML = 'Website pribadi tentang Portfolio saya <br> <strong>Tools yang digunakan :</strong> <br> HTML,CSS,Bootstrap,Javascript';
-});
-pGameSuit.addEventListener('click', () => {
+pDua.addEventListener('click', () => {
   textReviewH2.innerHTML = 'Game Suit';
   textReviewP.innerHTML = 'Game Suit batu,gunting,kertas yang dibuat menggunakan Javascript <br> <strong>Tools yang digunakan :</strong> <br> HTML,CSS,Javascript';
+});
+pTiga.addEventListener('click', () => {
+  textReviewH2.innerHTML = 'Coming Soon...';
+  textReviewP.innerHTML = '';
 });
