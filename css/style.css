@@ -532,6 +532,27 @@ nav .navbar-nav {
   opacity: 0.5;
 }
 
+/* Scroll Up */
+.go-top-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 45px;
+  height: 45px;
+  background-color: crimson;
+  z-index: 9999;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  border-radius: 10px;
+  display: none;
+}
+
+.go-top-btn i {
+  font-size: 24px;
+  color: white;
+}
+
 /* ======================================================================== */
 /* Responsive */
 @media screen and (min-width: 1400px) {
